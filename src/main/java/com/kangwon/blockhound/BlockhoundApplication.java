@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BlockhoundApplication {
 
     public static void main(String[] args) {
+        Blockhoun.install();
         SpringApplication.run(BlockhoundApplication.class, args);
     }
 
